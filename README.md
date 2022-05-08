@@ -1,6 +1,6 @@
 # Host 
 #### localhost:3000
-  The host app is __not__ using create-react-app and instead has taking the approach of manually setting up
+  The host app is __not__ using create-react-app and instead has taken the approach of manually setting up
   the react project and configuring the webpack configs.
 
 # Remote 

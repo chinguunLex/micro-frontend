@@ -3,6 +3,8 @@ const deps = require("./package.json").dependencies;
 
 const moduleFederationSetup = {
   overrideWebpackConfig: ({ webpackConfig }) => {
+    // Specify the base path for all the assets within your application.
+    // this is needed for requesting chunks.
     webpackConfig.output.publicPath = "auto";
 
       webpackConfig.plugins = [
