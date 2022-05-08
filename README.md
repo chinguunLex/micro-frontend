@@ -1,6 +1,6 @@
 # Host 
 #### localhost:3000
-  The host app is __not__ using create-react-app and instead had taking the approach of manually setting up
+  The host app is __not__ using create-react-app and instead has taking the approach of manually setting up
   the react project and configuring the webpack configs.
 
 # Remote 
@@ -10,7 +10,7 @@ to override the webpack config which is located in node_modules/react-scripts/co
 
 # Run Apps
 1. cd remote
-2 npm i
+2. npm i
 3. npm run start
 4. cd ..
 5. cd host
