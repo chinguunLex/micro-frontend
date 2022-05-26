@@ -6,7 +6,7 @@ const deps = require('../package.json').dependencies;
 const devConfig = {
   mode: 'development',
   devServer: {
-    port: 3000,
+    port: 3003,
     historyApiFallback: {
       index: 'index.html',
     },
@@ -15,7 +15,7 @@ const devConfig = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        remote: 'remote@http://localhost:3001/remoteEntry.js',
+        notes_mfe: 'notes_mfe_0_0_1@http://localhost:3000/remoteEntry.js',
       },
            shared: {
              ...deps,

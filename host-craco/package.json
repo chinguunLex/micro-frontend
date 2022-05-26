@@ -14,8 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "craco start --config craco.config.dev.js",
-    "local": "craco start --config craco.config.local.js",
+    "start": "craco start",
     "build": "craco build"
   },
   "eslintConfig": {

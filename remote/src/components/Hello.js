@@ -1,6 +1,15 @@
-
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
 const Hello = () => {
-  return <div>hello</div>
+  return <div>hello world</div>
 }
 
-export {Hello}
+// export {Hello}
+
+export default () => (
+  <Routes>
+      <Route path="hello/world" element={<Hello />} />
+  </Routes>
+)

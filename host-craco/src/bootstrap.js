@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Hello from "./components/Hello"
+// import {Hello} from "./components/Hello"
+import Hello from "remote/Hello"
 
 import ReactDOM from "react-dom/client";
 import {
@@ -58,4 +59,6 @@ root.render(
     </Routes>
   </BrowserRouter>
 );
+
+
 
