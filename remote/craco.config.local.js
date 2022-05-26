@@ -5,7 +5,6 @@ const moduleFederationSetup = {
   overrideWebpackConfig: ({ webpackConfig }) => {
     // Specify the base path for all the assets within your application.
     // this is needed for requesting chunks.
-    webpackConfig.output.publicPath = "/";
 
       webpackConfig.plugins = [
         ...webpackConfig.plugins,
