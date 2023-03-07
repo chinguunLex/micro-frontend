@@ -1,6 +1,5 @@
+import React from 'react'
 
-const Hello = () => {
+export const Hello = () => {
   return <div>hello</div>
 }
-
-export {Hello}
